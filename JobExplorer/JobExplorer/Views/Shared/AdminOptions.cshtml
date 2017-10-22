@@ -1,0 +1,8 @@
+﻿
+@{
+    ViewBag.Title = "AdminOptions";
+}
+
+@Html.ActionLink("Add speciality", "AddSpeciality", "Admin", routeValues: null, htmlAttributes: new { title = "Manage" });
+@Html.ActionLink("Delete speciality", "DeleteSpeciality", "Employee", routeValues: null, htmlAttributes: new { title = "Manage" });
+@RenderBody()

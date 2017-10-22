@@ -1,0 +1,26 @@
+﻿@model JobExplorer.Models.Speciality
+@{
+    ViewBag.Title = "AddSpeciality";
+}
+@Styles.Render("~/Content/Site.css")
+<h2>AddSpeciality</h2>
+@using (Html.BeginForm("AddSpeciality", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+<div class="form-group">
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.Id, new { @class = "form-control", @placeholder = "E-mail" })
+        @Html.ValidationMessageFor(m => m.Id)
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-md-10">
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @placeholder = "Login" })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" class="btn btn-default" value="Log Up" />
+    </div>
+</div>
+}

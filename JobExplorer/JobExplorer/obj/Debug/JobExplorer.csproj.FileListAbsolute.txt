@@ -1,0 +1,298 @@
+D:\Учеба\JobExplorer\JobExplorer\bin\ApplicationInsights.config
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\csc.exe
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\csc.exe.config
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\csc.rsp
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\csi.exe
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\csi.rsp
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\System.AppContext.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\System.Collections.Immutable.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\System.IO.FileSystem.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\System.Reflection.Metadata.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\vbc.exe
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\vbc.exe.config
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\vbc.rsp
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\VBCSCompiler.exe
+D:\Учеба\JobExplorer\JobExplorer\bin\roslyn\VBCSCompiler.exe.config
+D:\Учеба\JobExplorer\JobExplorer\bin\JobExplorer.dll.config
+D:\Учеба\JobExplorer\JobExplorer\bin\JobExplorer.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\JobExplorer.pdb
+D:\Учеба\JobExplorer\JobExplorer\bin\Antlr3.Runtime.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\EntityFramework.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\EntityFramework.SqlServer.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.DependencyCollector.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.Web.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.WindowsServer.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.ApplicationInsights.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Web.Infrastructure.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Newtonsoft.Json.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\Owin.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Helpers.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Mvc.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Optimization.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Razor.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.WebPages.Deployment.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.WebPages.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.WebPages.Razor.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\WebGrease.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\EntityFramework.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\EntityFramework.SqlServer.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Helpers.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Mvc.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Optimization.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.Razor.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.WebPages.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.WebPages.Deployment.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\System.Web.WebPages.Razor.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Antlr3.Runtime.pdb
+D:\Учеба\JobExplorer\JobExplorer\bin\Newtonsoft.Json.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.ApplicationInsights.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.DependencyCollector.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.WindowsServer.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\Microsoft.AI.Web.xml
+D:\Учеба\JobExplorer\JobExplorer\bin\ru\System.Web.Helpers.resources.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\ru\System.Web.Mvc.resources.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\ru\System.Web.Optimization.resources.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\ru\System.Web.Razor.resources.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.resources.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Учеба\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Учеба\JobExplorer\JobExplorer\obj\Debug\JobExplorer.csprojResolveAssemblyReference.cache
+D:\Учеба\JobExplorer\JobExplorer\obj\Debug\JobExplorer.dll
+D:\Учеба\JobExplorer\JobExplorer\obj\Debug\JobExplorer.pdb
+D:\Учеба\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.Initial.resources
+D:\Учеба\JobExplorer\JobExplorer\obj\Debug\JobExplorer.csproj.GenerateResource.Cache
+D:\Учеба\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.AspNetUserId_Added.resources
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.csprojResolveAssemblyReference.cache
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.Initial.resources
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.AspNetUserId_Added.resources
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.csproj.GenerateResource.Cache
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.dll
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.pdb
+D:\5\JobExplorer\JobExplorer\bin\ApplicationInsights.config
+D:\5\JobExplorer\JobExplorer\bin\roslyn\csc.exe
+D:\5\JobExplorer\JobExplorer\bin\roslyn\csc.exe.config
+D:\5\JobExplorer\JobExplorer\bin\roslyn\csc.rsp
+D:\5\JobExplorer\JobExplorer\bin\roslyn\csi.exe
+D:\5\JobExplorer\JobExplorer\bin\roslyn\csi.rsp
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\5\JobExplorer\JobExplorer\bin\roslyn\System.AppContext.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\System.Collections.Immutable.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\System.IO.FileSystem.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\System.Reflection.Metadata.dll
+D:\5\JobExplorer\JobExplorer\bin\roslyn\vbc.exe
+D:\5\JobExplorer\JobExplorer\bin\roslyn\vbc.exe.config
+D:\5\JobExplorer\JobExplorer\bin\roslyn\vbc.rsp
+D:\5\JobExplorer\JobExplorer\bin\roslyn\VBCSCompiler.exe
+D:\5\JobExplorer\JobExplorer\bin\roslyn\VBCSCompiler.exe.config
+D:\5\JobExplorer\JobExplorer\bin\JobExplorer.dll.config
+D:\5\JobExplorer\JobExplorer\bin\JobExplorer.dll
+D:\5\JobExplorer\JobExplorer\bin\JobExplorer.pdb
+D:\5\JobExplorer\JobExplorer\bin\Antlr3.Runtime.dll
+D:\5\JobExplorer\JobExplorer\bin\EntityFramework.dll
+D:\5\JobExplorer\JobExplorer\bin\EntityFramework.SqlServer.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.Agent.Intercept.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.DependencyCollector.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.Web.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.WindowsServer.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.ApplicationInsights.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Core.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.Cookies.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.OAuth.dll
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Web.Infrastructure.dll
+D:\5\JobExplorer\JobExplorer\bin\Newtonsoft.Json.dll
+D:\5\JobExplorer\JobExplorer\bin\Owin.dll
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Helpers.dll
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Mvc.dll
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Optimization.dll
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Razor.dll
+D:\5\JobExplorer\JobExplorer\bin\System.Web.WebPages.Deployment.dll
+D:\5\JobExplorer\JobExplorer\bin\System.Web.WebPages.dll
+D:\5\JobExplorer\JobExplorer\bin\System.Web.WebPages.Razor.dll
+D:\5\JobExplorer\JobExplorer\bin\WebGrease.dll
+D:\5\JobExplorer\JobExplorer\bin\EntityFramework.xml
+D:\5\JobExplorer\JobExplorer\bin\EntityFramework.SqlServer.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Core.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.Cookies.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.OAuth.xml
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Helpers.xml
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Mvc.xml
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Optimization.xml
+D:\5\JobExplorer\JobExplorer\bin\System.Web.Razor.xml
+D:\5\JobExplorer\JobExplorer\bin\System.Web.WebPages.xml
+D:\5\JobExplorer\JobExplorer\bin\System.Web.WebPages.Deployment.xml
+D:\5\JobExplorer\JobExplorer\bin\System.Web.WebPages.Razor.xml
+D:\5\JobExplorer\JobExplorer\bin\Antlr3.Runtime.pdb
+D:\5\JobExplorer\JobExplorer\bin\Newtonsoft.Json.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.ApplicationInsights.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.DependencyCollector.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.WindowsServer.xml
+D:\5\JobExplorer\JobExplorer\bin\Microsoft.AI.Web.xml
+D:\5\JobExplorer\JobExplorer\bin\ru\System.Web.Helpers.resources.dll
+D:\5\JobExplorer\JobExplorer\bin\ru\System.Web.Mvc.resources.dll
+D:\5\JobExplorer\JobExplorer\bin\ru\System.Web.Optimization.resources.dll
+D:\5\JobExplorer\JobExplorer\bin\ru\System.Web.Razor.resources.dll
+D:\5\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.resources.dll
+D:\5\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\5\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.CreatorLoginToResumeAdded.resources
+D:\5\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.DBUserChanged.resources
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ApplicationInsights.config
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\csc.exe
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\csc.exe.config
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\csc.rsp
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\csi.exe
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\csi.rsp
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\System.AppContext.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\System.Collections.Immutable.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\System.IO.FileSystem.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\System.Reflection.Metadata.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\vbc.exe
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\vbc.exe.config
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\vbc.rsp
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\VBCSCompiler.exe
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\roslyn\VBCSCompiler.exe.config
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\JobExplorer.dll.config
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\JobExplorer.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\JobExplorer.pdb
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Antlr3.Runtime.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\EntityFramework.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\EntityFramework.SqlServer.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.DependencyCollector.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.Web.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.WindowsServer.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.ApplicationInsights.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Web.Infrastructure.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Newtonsoft.Json.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Owin.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Helpers.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Mvc.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Optimization.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Razor.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.WebPages.Deployment.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.WebPages.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.WebPages.Razor.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\WebGrease.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\EntityFramework.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\EntityFramework.SqlServer.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Helpers.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Mvc.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Optimization.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.Razor.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.WebPages.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.WebPages.Deployment.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\System.Web.WebPages.Razor.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Antlr3.Runtime.pdb
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Newtonsoft.Json.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.ApplicationInsights.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.DependencyCollector.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.WindowsServer.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\Microsoft.AI.Web.xml
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ru\System.Web.Helpers.resources.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ru\System.Web.Mvc.resources.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ru\System.Web.Optimization.resources.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ru\System.Web.Razor.resources.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.resources.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.csprojResolveAssemblyReference.cache
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.Initial.resources
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.AspNetUserId_Added.resources
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.CreatorLoginToResumeAdded.resources
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.Migrations.DBUserChanged.resources
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.csproj.GenerateResource.Cache
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.dll
+D:\Учеба\5 семестр\Курсовая\JobExplorer\JobExplorer\obj\Debug\JobExplorer.pdb

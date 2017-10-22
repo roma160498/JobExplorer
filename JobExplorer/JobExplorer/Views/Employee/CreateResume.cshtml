@@ -1,0 +1,155 @@
+﻿@model JobExplorer.Models.Resume
+@{
+    ViewBag.Title = "CreateResume";
+
+}
+@Styles.Render("~/Content/RegLogForm.css")
+
+@using (Html.BeginForm("CreateResume", "Employee", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-horizontal">
+                    <span class="heading">Resume</span>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.BirthDate, new { @class = "col-md-2 control-label" })
+                                    <input type="date" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.City, new { @class = "col-md-2 control-label" })
+                                    @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.City)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.Relocation, new { @class = "col-md-2 control-label" })
+                                    @Html.DropDownList("Relocation", new SelectList(new string[] { "Available", "Impossible", "Desirable" }), new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Relocation)
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.BusinessTrip, new { @class = "col-md-2 control-label" })
+                                    @Html.DropDownList("BusinessTrip", new SelectList(new string[] { "Available", "Impossible", "Sometimes" }), new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.BusinessTrip)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.PhoneNumber, new { @class = "col-md-2 control-label" })
+                                    @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.PhoneNumber)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.Skype, new { @class = "col-md-2 control-label" })
+                                    @Html.TextBoxFor(m => m.Skype, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Skype)
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Email)
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                @Html.LabelFor(m => m.sex, new { @class = "col-md-2 control-label" })
+                                <div class="col-md-12">
+                                    @Html.RadioButtonFor(m => m.sex, true)
+                                    <span>Male</span> <br />
+                                    @Html.RadioButtonFor(m => m.sex, false)
+                                    <span>Female</span> <br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <div class="col-md-12">
+
+                                    @Html.LabelFor(m => m.EducationLevel, new { @class = "col-md-2 control-label" })
+                                    @Html.DropDownList("EducationLevel", new SelectList(new string[] { "Higher", "Incomplete higher ", "Secondary", "Secondary special" }), new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.EducationLevel)
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.Institution, new { @class = "col-md-2 control-label" })
+                                    @Html.TextBoxFor(m => m.Institution, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Institution)
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.Faculty, new { @class = "col-md-2 control-label" })
+                                    @Html.TextBoxFor(m => m.Faculty, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Faculty)
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.Specialization, new { @class = "col-md-2 control-label" })
+                                    @Html.TextBoxFor(m => m.Specialization, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Specialization)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.AdditionalInformation, new { @class = "col-md-2 control-label" })
+                                    @Html.TextAreaFor(m => m.AdditionalInformation, 5, 15, new { @class = "form-control", @style = "height:300px" })
+                                    @Html.ValidationMessageFor(m => m.AdditionalInformation)
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    @Html.LabelFor(m => m.Speciality, new { @class = "col-md-2 control-label" })
+                                    @Html.DropDownListFor(m => m.Speciality.Id, ViewBag.Specialities as SelectList, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Speciality)
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-12">
+                            <input type="submit" class="btn btn-default" value="Log Up" />
+                        </div>
+                    </div>
+</div>
+            </div>
+        </div>
+                    }

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<JobExplorer.Models.ApplicationUser>
+@{
+    ViewBag.Title = "Speciality";
+}
+@Html.AntiForgeryToken()
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Role</td>
+                <td>Name</td>
+                <td>Login</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @using Microsoft.AspNet.Identity
+            @{
+                            int counter = 0;
+                            foreach (var i in ViewBag.Users)
+                            {
+                    
+                                        <tr>
+                        <td>@ViewBag.Roles[counter][0]</td>
+                        <td>@i.FirstName @i.SurName</td>
+                        <td>@i.UserName</td>
+                        <td>
+                            <div class="col-md-offset-2 col-md-10">
+                                @using (Ajax.BeginForm("DeleteSpeciality", new AjaxOptions { UpdateTargetId = "results" }))
+                                {
+                                    <input type="hidden" name="id" value="@i.Id" />
+                                    <input type="submit" class="btn btn-default" value="Delete" />
+                                }
+                                <div id="results"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    counter++;
+                }
+
+            }
+
+            
+            
+        </tbody>
+    </table>

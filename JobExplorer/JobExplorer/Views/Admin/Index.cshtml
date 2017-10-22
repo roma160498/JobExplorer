@@ -1,0 +1,23 @@
+﻿@model JobExplorer.Models.Speciality
+@{
+    ViewBag.Title = "Index";
+}
+@Scripts.Render("~/scripts/jquery-1.10.2.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+@Styles.Render("~/Content/Site.css")
+<div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+        <ul class="nav nav-sidebar">
+            <li >@using (Ajax.BeginForm("DisplayUsers", new AjaxOptions { UpdateTargetId = "results", HttpMethod = "Get" }))
+            {
+                <input type='submit' class="btn btn-default btn-block" value='Users' />
+            }</li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-9 col-sm-offset-0 col-md-10 col-md-offset-0">
+        <div id="results"></div>
+    </div>
+</div>

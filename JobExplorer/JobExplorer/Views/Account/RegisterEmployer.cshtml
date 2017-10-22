@@ -1,0 +1,72 @@
+﻿@model JobExplorer.Models.RegisterEmployerModel
+@{
+    ViewBag.Title = "RegisterEmployer";
+}
+@Styles.Render("~/Content/RegLogForm.css")
+
+@using (Html.BeginForm("RegisterEmployer", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <form class="form-horizontal">
+                    <span class="heading">Sign Up as Employer</span>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "E-mail" })
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.TextBoxFor(m => m.City, new { @class = "form-control", @placeholder = "City" })
+                            @Html.ValidationMessageFor(m => m.City)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.TextBoxFor(m => m.WorkPlace, new { @class = "form-control", @placeholder = "Company" })
+                            @Html.ValidationMessageFor(m => m.WorkPlace)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.TextBoxFor(m => m.WebSite, new { @class = "form-control", @placeholder = "Website" })
+                            @Html.ValidationMessageFor(m => m.WebSite)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", @placeholder = "Firstname" })
+                            @Html.ValidationMessageFor(m => m.FirstName)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.TextBoxFor(m => m.SurName, new { @class = "form-control", @placeholder = "SurName" })
+                            @Html.ValidationMessageFor(m => m.SurName)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @Html.PasswordFor(m => m.PasswordConfirm, new { @class = "form-control", @placeholder = "Password confirm" })
+                            @Html.ValidationMessageFor(m => m.PasswordConfirm)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" class="btn btn-default" value="Log Up" />
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+                    }

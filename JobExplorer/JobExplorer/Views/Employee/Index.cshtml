@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@Styles.Render("~/Content/OwnPage.css")
+@Scripts.Render("~/scripts/jquery-1.10.2.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+<h1 class="name-title">@ViewBag.AuthUser.FirstName</h1>
+<h1 class="name-title">@ViewBag.AuthUser.SurName</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div style="text-align:center">
+                <img src="~/Pics/resume.png" style="width:200px; height:200px" />
+            </div>
+            <h2 class="subtitle">RESUMES</h2>
+            <h1 class="sub-subtitle">You have @ViewBag.ResumesCount resumes</h1>
+            <div class="col-md-6 col-md-offset-3" style="text-align:center">
+                @using (Html.BeginForm("CreateResume", "Employee", FormMethod.Get, new { @style = "padding-bottom: 30px;" }))
+                {
+                    <input type="submit" class="btn btn-danger btn-lg btn-block" value="СREATE" style="margin-top:30px" />
+                }
+            </div>
+            <div class="col-md-6 col-md-offset-3" style="text-align:center">
+                @if (@ViewBag.ResumesCount != 0)
+                {
+                    using (Ajax.BeginForm("DisplayResume", "Employee", null, new AjaxOptions { UpdateTargetId = "results", HttpMethod = "Get" }, new { @style = "padding-bottom: 10px;" }))
+                    {
+                        <input type="submit" class="btn btn-danger btn-lg btn-block" value="SEE IT" style="margin-top:10px" />
+                    }
+                    
+                }
+            </div>
+            <div id="results"></div>
+        </div>
+        <div class="col-md-6">
+            <div style="text-align:center">
+                <img src="~/Pics/invite.png" style="width:200px; height:200px" />
+            </div>
+            <h2 class="subtitle">INVITATIONS</h2>
+            <h1 class="sub-subtitle">You have @ViewBag.ResumesCount invitations</h1>
+        </div>
+</div>
+

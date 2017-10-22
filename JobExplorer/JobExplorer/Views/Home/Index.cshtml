@@ -1,0 +1,233 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@Styles.Render("~/Content/Site.css")
+<!-- Header -->
+<style>
+    #statistic h1{
+    }
+    .reasons {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    img{
+        width:180px;
+        height:180px;
+        padding-bottom:10px;
+    }
+    .autor {
+        text-align: center;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 260px;
+        right: 500px;
+        text-align: center;
+        font-family: Latha;
+        font-weight: bold;
+        color: #fff;
+    }
+    .row {
+        position: relative;
+    }
+    /* Header */
+#head { background:#181015 url( ../images/bg_header.jpg) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#head.secondary { height:100px; min-height: 100px; padding-top:0px; }
+	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:6px; color:white; line-height:1.15em; }
+	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
+		#head .tagline a { color:#fff; }
+	#head .btn { margin-bottom:10px;}
+	#head .btn-default { text-shadow: none; background:transparent; color:rgba(255,255,255,.5); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); background: transparent; }
+		#head .btn-default:hover,
+		#head .btn-default:focus { color:rgba(255,255,255,.8); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); background: transparent; }
+		#head .btn-default:active,
+		#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
+
+
+
+/* Autohide navbar */
+.slideUp { top:-100px; }
+.headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
+
+
+/* Highlights (in jumbotron in most cases) */
+.highlight { margin-top:40px; }
+	.h-caption { text-align: center; }
+	.h-caption i { display:block; font-size: 54px; color:#382526; margin-bottom:36px; }
+	.h-caption h4 { color:#382526; font-size: 16px; font-weight: bold; margin-bottom:20px; }
+	.h-body { }
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
+h1, .h1, h2, .h2, h3, .h3 { margin-top:30px; }
+blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0 30px; }
+label { color: #777; }
+.thin { font-weight:300; }
+.page-title { margin-top:20px; font-weight:300; }
+.text-muted { color:#888; }
+.breadcrumb { background:none; padding:0; margin:30px 0 0px 0; }
+ul.list-spaces li{ margin-bottom:10px; }
+
+/* Helpers */
+.container-full { margin: 0 auto; width: 100%; }
+.top-space { margin-top: 60px; }
+.top-margin { margin-top:20px; }
+
+img { max-width:100%; }
+img.pull-right { margin-left: 10px; }
+img.pull-left { margin-right: 10px; }
+#map { width:100%; height:280px; }
+#social { margin-top:50px; margin-bottom:50px; }
+	#social .wrapper { width:340px; margin:0 auto; }
+
+/* Main content block */
+.maincontent { }
+
+/* Sidebars */
+.sidebar { padding-top:36px; padding-bottom:30px; }
+	.sidebar .widget { margin-bottom:20px; }
+	.sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 { margin-top:20px; }
+
+/* Footer */
+.footer1 { background: #232323; padding: 30px 0 0 0; font-size: 12px; color: #999; }
+	.footer1 a { color: #ccc; }
+		.footer1 a:hover {color: #fff; }
+	.footer1 .widget { margin-bottom:30px; }
+	.footer1 .widget-title { font-size: 17px; font-weight: bold; color: #ccc; margin: 0 0 20px; }
+	.footer1 .entry-meta { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin: 0 0 35px 0; padding: 2px 0; color: #888888; font-size: 12px; font-size: 0.75rem; }
+		.footer1 .entry-meta a { color: #333333; }
+		.footer1 .entry-meta .meta-in { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px 0; }
+	.follow-me-icons { font-size:30px; }
+		.follow-me-icons i { float:left; margin:0 10px 0 0; }
+
+.footer2 { background: #191919; padding: 15px 0; color: #777; font-size: 12px; }
+	.footer2 a { color: #aaa; }
+		.footer2 a:hover { color: #fff; }
+		.footer2 p { margin: 0; }
+
+	.widget-simplenav { margin-left:-5px; }
+	.widget-simplenav a{ margin:0 5px; }
+    #portfoliowrap {
+        background: url(../Pics/item-bg.jpg) no-repeat center top;
+        margin-top: 0px;
+        padding-top: 70px;
+        text-align: center;
+        background-attachment: relative;
+        background-position: center center;
+        min-height: 500px;
+        width: 100%;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: snow;
+    }
+        #portfoliowrap h1 {
+            font-size: 70px;
+            font-weight: 900;
+        }
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="intro-message">
+            <h1>JobExplorer</h1>
+            <h3>Early start makes easy stages</h3>
+            <hr class="intro-divider">
+            <div class="container">
+                <div class="row">
+                    @using (Html.BeginForm("CreateResume", "Employee", FormMethod.Get, new { @class = "col-lg-2 col-lg-offset-4", @style = "padding-bottom: 10px;" }))
+                    {
+                        <input type="submit" class="btn btn-danger btn-lg" value="Add Vacancy" style="width:180px" />
+                    }
+
+                    @using (Html.BeginForm("CreateResume", "Employee", FormMethod.Get, new { @class = "col-lg-2 col-lg-offset-0" }))
+                    {
+                        <input type="submit" class="btn btn-danger btn-lg" value="Add Resume" style="width:180px" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+@*Reasons to chose servise*@
+<div class="reasons">
+    <div class="col-lg-6 col-lg-offset-3">
+    <h3>Reasons to use our service</h3>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 highlight">
+                <img src="~/Pics/PERSONAL_QUALITIES.png">
+                <div class="h-body text-center">
+                    <p class="col-md-10 col-md-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid adipisci aspernatur. Soluta quisquam dignissimos earum quasi voluptate. Amet, dignissimos, tenetur vitae dolor quam iusto assumenda hic reprehenderit?</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 highlight">
+                <img src="~/Pics/GOOD_RESUME.png">
+                <div class="h-body text-center">
+                    <p class="col-md-10 col-md-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, commodi, sequi quis ad fugit omnis cumque a libero error nesciunt molestiae repellat quos perferendis numquam quibusdam rerum repellendus laboriosam reprehenderit! </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 highlight">
+                <img  src="~/Pics/VACANCY_SPEACH.png" />
+                <div class="h-body text-center">
+                    <p class="col-md-10 col-md-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, commodi, sequi quis ad fugit omnis cumque a libero error nesciunt molestiae repellat quos perferendis numquam quibusdam rerum repellendus laboriosam reprehenderit! </p>
+                </div>
+            </div>
+        </div> <!-- /row  -->
+
+    </div>
+</div>
+
+@*Statistic*@
+<div id="portfoliowrap">
+    <div class="col-lg-6 col-lg-offset-3">
+        <h3>Statistics</h3>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="row mt centered">
+                <div id ="statistic" class="col-lg-3">
+                    <p><i class="fa fa-instagram"></i></p>
+                    <h1>@ViewBag.UsersAmount</h1>
+                    <hr>
+                    <h4>User Regestered</h4>
+                </div>
+
+                <div class="col-lg-3">
+                    <p><i class="fa fa-music"></i></p>
+                    <h1>@ViewBag.ResumesAmount</h1>
+                    <hr>
+                    <h4>Resumes Published</h4>
+                </div>
+
+                <div class="col-lg-3">
+                    <p><i class="fa fa-trophy"></i></p>
+                    <h1>@ViewBag.VacanciesAmount</h1>
+                    <hr>
+                    <h4>Vacancies Published</h4>
+                </div>
+            @* ДОБАВИТЬ СЧЕТЧИК КОМПАНИЙ *@
+                <div class="col-lg-3">
+                    <p><i class="fa fa-ticket"></i></p>
+                    <h1>@ViewBag.SpecialitiesAmount</h1>
+                    <hr>
+                    <h4>Companies Enabled</h4>
+                </div>
+
+            </div><!-- /row -->
+        </div>
+    </div><!-- /container -->
+</div><!-- /portfoliowrap -->

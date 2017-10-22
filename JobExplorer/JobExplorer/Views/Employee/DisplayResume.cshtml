@@ -1,0 +1,44 @@
+﻿<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Speciality</th>
+            <th>Display</th>
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody id="items">
+        @{
+            int counter = 0;
+            foreach (var i in @ViewBag.Resumes)
+            {
+                string str = @ViewBag.SpecialitiesInResume[counter];
+                <tr data-toggle="collapse" data-target="#demo1" class="accordion-toggle ">
+                    <td>@i.DateOfCreation</td>
+                    <td>@str</td>
+                    @using (Html.BeginForm("CreateResume", "Employee", FormMethod.Get, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        <td>
+                            <button type="submit" class="update btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                            </button>
+                        </td>
+
+                    }
+                    @using (Html.BeginForm("CreateResume", "Employee", FormMethod.Get, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        <td>
+                            <button type="submit" class="update btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                            </button>
+                        </td>
+
+                    }
+
+                </tr>
+                    counter++;
+                }
+            }
+    </tbody>
+
+</table>
